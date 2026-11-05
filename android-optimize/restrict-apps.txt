@@ -1,0 +1,15 @@
+# Apps that should NOT run in the background (one package name per line).
+# This is the same as Settings > Apps > <app> > Battery > Restricted.
+# Notifications from these apps may be late until you open them, so leave out
+# messaging, alarm, and email apps you rely on.
+#
+# Find package names with:  adb shell pm list packages -3
+# Remove the "#" in front of any line below to use it.
+
+# com.facebook.katana
+# com.instagram.android
+# com.zhiliaoapp.musically
+# com.twitter.android
+# com.amazon.mShop.android.shopping
+# com.netflix.mediaclient
+# com.spotify.music
